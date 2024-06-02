@@ -24,7 +24,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #07e6bd;
+  background-color: #d9cda1;
   color: black;
 }
 
@@ -32,7 +32,7 @@
 	background-color: #ffffff;
 	padding: 30px 30px 30px 30px;
 	margin-top: 10px;
-	border-color: #07e6bd;
+	border-color: #d9cda1;
 	border-style: solid;
 	border-radius: 14px 14px 14px 14px;
 	max-width: 100%;
