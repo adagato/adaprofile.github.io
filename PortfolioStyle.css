@@ -1,0 +1,222 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 14px 14px 14px 14px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #07e6bd;
+  color: black;
+}
+
+.background{
+	background-color: #ffffff;
+	padding: 30px 30px 30px 30px;
+	margin-top: 10px;
+	border-color: #07e6bd;
+	border-style: solid;
+	border-radius: 14px 14px 14px 14px;
+	max-width: 100%;
+}
+
+body{
+	background-color:#242424;
+	color: #242424;
+	font-family: Arial;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Note{
+	color: #242424;
+}
+
+.link{
+	color: #0000EE;
+}
+
+.PageHeader	{
+	color:#242424;
+	font-family: Arial;
+	font-size: 72px;
+	text-align: center;
+}
+
+.TextHeader{
+	font-size: 32px;
+	color: black;
+}
+
+.h1{
+	font-size: 72;
+	text-align: center;
+}
+
+h2	{
+	color:#242424;
+	font-family: Arial;
+	font-size: 28px;
+}
+
+.Bannertext{
+	text-align: center;
+	font-size: 22px;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%;
+	height: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	box-shadow: 4px 4px 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.Resume{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 90%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 4px 4px 8px;
+}
+
+.Southwinds{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 100%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 4px 4px 8px;
+}
+
+.headshot{
+	position: relative;
+	max-width: 600px;
+	float: right;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.video{
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.btn-1,
+.btn-1 *,
+.btn-1 :after,
+.btn-1 :before,
+.btn-1:after,
+.btn-1:before {
+  border: 0 solid;
+  box-sizing: border-box;
+  color: #0c8a06;
+}
+.btn-1 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #efefed;
+  background-image: none;
+  color: #0c8a06;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-1:disabled {
+  cursor: default;
+}
+.btn-1:-moz-focusring {
+  outline: auto;
+}
+.btn-1 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-1 [hidden] {
+  display: none;
+}
+.btn-1 {
+  border-radius: 4rem;
+  border-width: 2px;
+  padding: 0.8rem 3rem;
+}
+.btn-1:hover {
+  background-color: #d9cda1;
+}
+
+.table1{
+	width: 90%;
+	margin: 25px;	
+	padding: 10px;
+	color: white;
+	font-family: Arial;
+}
+
+.table1 thead tr{
+	background-color: #242424;
+	color: #ffffff;
+	text-align: center;
+	border: 1px solid;	
+	border-radius: 4px;
+}
+
+.table1 tr td {
+	border: 1px solid;
+	text-align: left;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.table1 th{
+	border: 1px solid;
+	color: #fa91ff;
+	border-color: #fa91ff;
+	border-radius: 8px 8px 8px 8px;
+}
+
+footer {
+	position: static;
+	padding: 3;
+	margin: 0;
+	color: #ffffff;
+	background-color: #0c8a06;
+	min-height: 2%;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 8px 8px 8px 8px;
+}
