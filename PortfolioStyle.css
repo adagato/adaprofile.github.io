@@ -1,12 +1,9 @@
-
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: #434343;
   overflow: hidden;
   border-radius: 14px 14px 14px 14px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #ffffff;
@@ -16,13 +13,11 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #d9cda1;
   color: black;
@@ -56,6 +51,26 @@ body{
 	color: #0000EE;
 }
 
+.HeaderLink:link{
+	text-decoration: none;
+	color: inherit;
+}
+
+.HeaderLink:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+.HeaderLink:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+.HeaderLink:active{
+	text-decoration: none;
+	color: inherit;
+}
+
 .PageHeader	{
 	color:#242424;
 	font-family: Arial;
@@ -81,7 +96,7 @@ body{
 }
 
 .TopRight{
-	font-size: 18;
+	font-size: 22;
 	padding: 28px 0;
 	float: right;
 	color: white;
