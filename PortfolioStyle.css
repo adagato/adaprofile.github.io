@@ -89,18 +89,10 @@ body{
 }
 
 .TopLeft{
-	font-size: 72;
-	margin-bottom: 1.5%;
+	font-size: 92;
+	margin-bottom: 1%;
 	text-align: left;
 	color: white;
-}
-
-.TopRight{
-	font-size: 22;
-	padding: 28px 0;
-	float: right;
-	color: white;
-	text-align: right;
 }
 
 h2	{
